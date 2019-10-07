@@ -8,6 +8,7 @@
   <package id="Aspose.Pdf" beforeOrAt="19.2" infoUri="https://nuget.org/packages/Aspose.Pdf/7.4.0" cve="CVE-2019-5067,CVE-2019-5066,CVE-2019-5042" />
 
   <package id="Auth0.AuthenticationApi" before="6.5.4" afterOrAt="5.8.0" infoUri="https://github.com/auth0/auth0.net/blob/master/SECURITY-NOTICE.md#idtokenvalidator-public" cve="CVE-2019-16929" />
+  <package id="Auth0.ManagementApi" before="6.5.4" afterOrAt="5.8.0" infoUri="https://github.com/auth0/auth0.net/blob/master/SECURITY-NOTICE.md#idtokenvalidator-public" cve="CVE-2019-16929" />
   
   <package id="Bytescout.Spreadsheet" before="2.30.1183" infoUri="https://nuget.org/packages/Bytescout.Spreadsheet/2.3.0.1247" />
 
@@ -24,6 +25,8 @@
 
   <package id="Cobweb.TaskQueue" before="1.1.1" infoUri="https://www.nuget.org/packages/Cobweb.TaskQueue/" />
 
+  <package id="DotNetBrowser" before="1.20.0" infoUri="https://www.nuget.org/packages/DotNetBrowser/1.20.0" cve="CVE-2019-5786" />
+
   <package id="EasyHook" before="2.7.6682" infoUri="https://www.nuget.org/packages/EasyHook" />
 
   <package id="EasyHookNativePackage" before="2.7.6682" infoUri="https://www.nuget.org/packages/EasyHookNativePackage" />
@@ -37,6 +40,8 @@
   <package id="JMeter" before="5.1.0" infoUri="https://www.securityfocus.com/bid/107219" cve="CVE-2019-0187" />
   
   <package id="LibGit2Sharp" before="0.20.1" infoUri="https://twitter.com/libgit2sharp/status/545695361114050560" />
+
+  <package id="MailKit" before="2.1.5.1" infoUri="https://www.nuget.org/packages/MailKit/2.1.5.1" cve="CVE-2017-0249" />
 
   <package id="Microsoft.AspNetCore.App" before="2.0.9" afterOrAt="2.0.0" infoUri="https://github.com/dotnet/core/blob/master/release-notes/2.0/2.0.9.md" />
   <package id="Microsoft.AspNetCore.App" before="2.1.13" afterOrAt="2.1.0" infoUri="https://github.com/dotnet/core/blob/master/release-notes/2.1/2.1.13/2.1.13.md" />
