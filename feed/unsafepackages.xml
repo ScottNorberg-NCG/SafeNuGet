@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unsafepackages>
-  <!-- Demo purposes only -->
-  <package id="NonExistent" version="1.0.0" />
-  
+<unsafepackages> 
   <!-- Actual packages - Have something you want to add? Please send a pull request -->
   <!-- possible version descriptors are version, before, beforeOrAt, after, afterOrAt -->
   <package id="AntiXSS" before="4.2.1" infoUri="http://technet.microsoft.com/en-us/security/bulletin/ms12-007" cve="CVE-2012-0007" />
   
   <package id="Aspose.Pdf" before="7.4.0" infoUri="https://nuget.org/packages/Aspose.Pdf/7.4.0" />
   <package id="Aspose.Pdf" beforeOrAt="19.2" infoUri="https://nuget.org/packages/Aspose.Pdf/7.4.0" cve="CVE-2019-5067,CVE-2019-5066,CVE-2019-5042" />
+
+  <package id="Auth0.AuthenticationApi" before="6.5.4" afterOrAt="5.8.0" infoUri="https://github.com/auth0/auth0.net/blob/master/SECURITY-NOTICE.md#idtokenvalidator-public" cve="CVE-2019-16929" />
   
   <package id="Bytescout.Spreadsheet" before="2.30.1183" infoUri="https://nuget.org/packages/Bytescout.Spreadsheet/2.3.0.1247" />
 
-  <package id="bzip2.v100" before="1.0.6" infoUri="https://www.nuget.org/packages/bzip2.v100/" />
+  <package id="bzip2.v100" before="1.0.6" infoUri="https://www.nuget.org/packages/bzip2.v100/" cve="CVE-2010-0405" />
+  <package id="bzip2.v110" before="1.0.6" infoUri="https://www.nuget.org/packages/bzip2.v110/" cve="CVE-2010-0405" />
+  <package id="bzip2.v120" before="1.0.6" infoUri="https://www.nuget.org/packages/bzip2.v120/" cve="CVE-2010-0405" />
+  <package id="bzip2.v141" before="1.0.6" infoUri="https://www.nuget.org/packages/bzip2.v141/" cve="CVE-2010-0405" />
+
+  <package id="chocolatey.lib" before="0.10.9" infoUri="https://www.nuget.org/packages/chocolatey.lib/0.10.9" cve="CVE-2018-5996,CVE-2017-17969" />
 
   <package id="CKSource.CKFinder" before="3.5.1" infoUri="https://ckeditor.com/blog/CKFinder-3.5.1-and-CKFinder-2.6.3-released/" cve="CVE-2019-15891,CVE-2019-15862" />
+
+  <package id="Cobweb.Azure" before="1.1.1" infoUri="https://www.nuget.org/packages/Cobweb.Azure/" />
+
+  <package id="Cobweb.TaskQueue" before="1.1.1" infoUri="https://www.nuget.org/packages/Cobweb.TaskQueue/" />
+
+  <package id="EasyHook" before="2.7.6682" infoUri="https://www.nuget.org/packages/EasyHook" />
+
+  <package id="EasyHookNativePackage" before="2.7.6682" infoUri="https://www.nuget.org/packages/EasyHookNativePackage" />
+  <package id="EasyHookNativePackage.redist" before="2.7.6682" infoUri="https://www.nuget.org/packages/EasyHookNativePackage.redist" />
+  <package id="EasyHookNativePackage.symbols" before="2.7.6682" infoUri="https://www.nuget.org/packages/EasyHookNativePackage.symbols" />
   
   <package id="FileUltimate" before="5.0.7" infoUri="https://www.nuget.org/packages/FileUltimate/5.0.7" />  
   
